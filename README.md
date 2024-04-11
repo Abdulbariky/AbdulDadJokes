@@ -1,6 +1,6 @@
 # AbdulDadJokes
 
-![Dads](https://img.freepik.com/free-photo/wooden-background-with-glasses-gift-father-s-day_23-2147631345.jpg?t=st=1712847670~exp=1712851270~hmac=65a9b885920682aac7cbab651513be5e171642a5cfcfad323e2b88d0a9bdfea1&w=740)
+![Dads](https://t3.ftcdn.net/jpg/04/74/17/06/240_F_474170622_O9yBwbJ9QN1MzjlAxB9iy15PXhVp3h6C.jpg)
 
 # Dads Jokes (The best you can get)
 
@@ -16,6 +16,10 @@ This website has been developed using:
 * HTML
 * CSS
 * JS
+* Fetch API: To fetch dad jokes from the external API (icanhazdadjoke.com).
+* VERCEL: For hosting the project and making it accessible to users.
+
+
 
 ## javascript
 
