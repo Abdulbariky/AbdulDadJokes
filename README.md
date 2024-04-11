@@ -15,7 +15,7 @@ This website has been developed using:
 
 * HTML
 * CSS
-* JS
+- JS
 * Fetch API: To fetch dad jokes from the external API (icanhazdadjoke.com).
 * VERCEL: For hosting the project and making it accessible to users.
 
