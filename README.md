@@ -27,7 +27,7 @@ This website has been developed using:
 
 ## live link
 
-[my tours website](https://abdulbariky.github.io/venturers/)
+[Dad jokes website](https://abdul-dad-jokes.vercel.app/)
 
  
  ### Requirements Needed
