@@ -4,7 +4,11 @@
 
 # Dads Jokes (The best you can get)
 
-The Dad Joke Project is a fun and engaging web application that allows users to browse their favorite dad jokes 
+The Dad Joke Project is a fun and engaging web application that allows users to browse their favorite dad jokes
+The project also aims to bring laughter and joy to all users of all ages and genders most importantly to increase the bond between Dads.
+
+In short, this is for the dear old dads who tell cringeworthy, eye-rolly, so-bad-they-’re-good jokes   
+
 
 ## Getting Started
 This website has been developed using:
