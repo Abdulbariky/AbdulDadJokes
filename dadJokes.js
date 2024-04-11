@@ -43,7 +43,7 @@ window.onload = function() {
 };
 
 // Function to fetch joke from API
-async function fetchJoke() {
+async function fetchJokeFromAPI() {
     try {
         const response = await fetch(jokeApi, {
             headers: {
@@ -52,15 +52,18 @@ async function fetchJoke() {
         });
         const data = await response.json();
         const joke = data.joke;
-        jokeElement.textContent = joke;
+        return joke; // Ensure the function returns a string value
     } catch (error) {
         console.error("Error fetching joke:", error);
-        jokeElement.textContent = "Failed to fetch joke. Please try again later.";
+        return "Failed to fetch joke. Please try again later."; // Return a default error message as a string
     }
 }
 
 // Event listener for Next Joke button
-nextJokeBtn.addEventListener("click", fetchJoke);
+nextJokeBtn.addEventListener("click", async () => {
+    const joke = await fetchJokeFromAPI();
+    jokeElement.textContent = joke;
+});
 
 // Event listener for adding joke to favorites on click
 jokeElement.addEventListener("click", () => {
