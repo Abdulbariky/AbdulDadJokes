@@ -1,0 +1,188 @@
+/* dadJokes.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCCCCC;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease;
+    color: #000; /* Default text color */
+}
+
+/* Navigation bar styling */
+.navbar {    
+    padding: 1rem 0; /* Adjusted padding */
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px; /* Adjusted margin */
+}
+
+.navbar a {
+    color: #CC0033; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Font size */
+    padding: 0.5rem 1rem; /* Adjusted padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar a:hover {
+    background-color: white; /* Darker color on hover */
+}
+
+/* Intro styling */
+.intro {
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add some top margin for spacing */
+    font-size: 1.2rem; /* Adjust the font size */
+    color: #555; /* Adjust the color */
+}
+
+/* Container styling */
+.container {
+    background-color: #99CC99;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 3.5rem 1.5rem;
+    text-align: center;
+    max-width: 50rem;
+    width: 100%;
+}
+
+/* Heading styling */
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Joke styling */
+.joke {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;    
+    border-radius: 5px; 
+    cursor: pointer;     
+}
+
+/* Button styling */
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1.2rem 2.5rem; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 1rem; /* Adjusted margin */
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease; /* Added transition */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
+
+/* Favorite jokes container */
+.favorites-container {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    background-color: #f0f0f0; /* Set background color */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    max-width: 80%; /* Limit width to improve readability */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+.favorites-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.favorite-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 15px; /* Add gap between items */
+    padding: 10px; /* Add padding inside the container */
+}
+
+.favorite-item {
+    padding: 10px;
+    background-color: #fff; /* Set background color for each item */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add slight shadow for depth */
+    text-align: center; /* Center align text */
+}
+
+.clear-favorites-btn {
+    background-color: #ff9999;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .btn {
+    background-color: #222;
+}
+
+.dark-mode .btn:hover {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .favorites-container {
+    background-color: #222;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .favorite-item {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .intro {
+    color: #fff; /* Change intro text color in dark mode */
+}
+
+.dark-mode .navbar a {
+    color: #fff; /* Change navigation link color in dark mode */
+}
+
+.dark-mode .navbar a:hover {
+    background-color: #555; /* Darker color on hover in dark mode */
+}
