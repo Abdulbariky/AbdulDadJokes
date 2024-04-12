@@ -186,3 +186,24 @@ h1 {
 .dark-mode .navbar a:hover {
     background-color: #555; /* Darker color on hover in dark mode */
 }
+
+/* Center the Favorites section */
+#favorites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the favorites container */
+#favoritesContainer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    max-width: 80%; /* Adjust the width as needed */
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
